@@ -93,7 +93,7 @@
   </tr>
   <tr>
     <td align="center">AI 서버</td>
-    <td>Python, FastAPI</td>
+    <td>Python3.11, FastAPI, YOLO11, SOM</td>
   </tr>
   <tr>
     <td align="center">인프라</td>
