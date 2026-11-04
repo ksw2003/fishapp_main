@@ -57,9 +57,7 @@
 
 ## 🗄️ 5. ERD
 <p align="center">
-  <a href="https://github.com/ksw2003/fishapp_main/blob/main/images/ERD.svg">
-    <img src="images/ERD.svg" width="1000">
-  </a>
+  <img src="images/ERD.svg" width="1600">
 </p>
 
 ## 🛠️ 6. 기술 스택
