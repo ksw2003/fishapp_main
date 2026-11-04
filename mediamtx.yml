@@ -1,0 +1,30 @@
+# RTSP 설정
+rtsp: true
+rtspAddress: :8554
+rtspTransports: [tcp]
+
+# WebRTC 설정
+webrtc: true
+webrtcAddress: :8889
+webrtcLocalUDPAddress: :8189
+webrtcAdditionalHosts: #호스트 IP
+
+# 영상 경로
+paths:
+  cam:
+    source: publisher
+
+# 인증 설정
+authMethod: internal
+authInternalUsers:
+  - user: #유저 이름
+    pass: #비밀번호
+    permissions:
+      - action: publish
+        path: cam
+
+  - user: any
+    pass:
+    permissions:
+      - action: read
+        path: cam

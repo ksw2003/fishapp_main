@@ -23,6 +23,7 @@
 5. ERD
 6. 기술 스택
 7. Repository
+8. 실행방법
 
 :bulb: ### 개발 배경 및 목적
 ---
@@ -78,3 +79,42 @@
 |Backend|Node.js 기반 API 서버 및 데이터 관리|<div align="center"><a href="https://github.com/ysy03/fishTankServer.git"><img src="images/icons/GitHub_Invertocat_Black.png" width="25"></a>|
 |AI Server|AI 영상 분석 및 물고기 인식 서버|<div align="center"><a href="https://github.com/dakyung427/fish-ai-server.git"><img src="images/icons/GitHub_Invertocat_Black.png" width="25"></a>|
 |IoT|Raspberry Pi 기반 센서 및 장치 제어|<div align="center"><a href="https://github.com/ksw2003/fishapp_iot.git"><img src="images/icons/GitHub_Invertocat_Black.png" width="25"></a>|
+
+
+### 실행 방법
+    
+#### 1.파일 받아오기
+
+    git clone https://github.com/ksw2003/fishapp_main.git
+    cd fishapp_main
+
+#### 2. .env파일을 작성한다
+    env파일을 만든 후 .env-example.text를 참고하여 작성해줍니다.
+
+
+#### 3.서버 폴더를 가져온다.
+
+    git clone https://github.com/ysy03/fishTankServer.git backend
+
+#### 4.서버 환경 설정한다.
+
+    https://github.com/ysy03/fishTankServer.git
+    이동후 readme설명에 따라 .env파일 생성
+
+### 5. docker-compose 실행
+
+    docker compose up -d --build
+
+### 6. 컨테이너 확인
+
+###### 실행중인 컨테이너 확인
+
+    docker ps
+
+###### 로그 확인 
+
+    docker compose logs -f backend-server
+
+###### docker-compose 실행 종료
+
+    docker compose down

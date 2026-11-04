@@ -1,0 +1,40 @@
+services:
+  backend-server:
+      build: ./backend
+      ports:
+        - "3000:3000"
+      env_file:
+        - ./backend/.env
+      volumes:
+        - image_datas:/app/uploads
+      depends_on:
+        - mysql
+
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_DATABASE: ${DB_DATABSENAME}
+    ports:
+      - "3308:3306"
+
+    volumes:
+      - mysql_datas:/var/lib/mysql
+      - ./mysql/Dump20261009.sql:/docker-entrypoint-initdb.d/schema.sql
+
+  mediamtx:
+    image: bluenviron/mediamtx:1.21.1
+    container_name: mediamtx
+    restart: unless-stopped
+
+    ports:
+      - "8554:8554/tcp"
+      - "8889:8889/tcp"
+      - "8189:8189/udp"
+
+    volumes:
+      - ./mediamtx.yml:/mediamtx.yml:ro
+
+volumes:
+    mysql_datas:
+    image_datas:
