@@ -12,7 +12,6 @@
 
 
 ## 📖 개요
----
 1. 개발 배경 및 목적
 2. 주요 기능
 3. 서비스 화면
@@ -22,11 +21,9 @@
 7. Repository
 
 ## 💡 개발 배경 및 목적
----
 본 시스템은 사용자가 시간과 장소에 관계없이 모바일 앱을 통해 어항을 원격으로 관리하고, AI를 활용하여 물고기의 상태를 확인할 수 있도록 하는 것을 목표로 한다. 이를 통해 지속적인 어항 관리가 어려운 사용자들의 부담을 줄이고, 물고기의 이상 징후를 조기에 파악하여 보다 편리하고 안정적인 관상어 사육 환경을 제공하고자 한다.
 
 ## 🚀 주요 기능
----
 - 실시간 모니터링: 어항 영상 및 수온·수질 상태 실시간 확인
 - 원격 어항 제어: 모바일 앱을 통한 먹이 급여 및 환수 제어
 - AI 물고기 분석: 물고기 어종 및 개체 수 인식
@@ -36,24 +33,28 @@
 - 커뮤니티: 사용자 간 사육 정보 및 경험 공유
 
 ## 🖼️ 서비스 화면
----
-<img src="images/screens/login_screen.jpg" width="200">
-<img src="images/screens/home_screen.jpg" width="200">
-<img src="images/screens/camera_screen.jpg" width="200">
-<img src="images/screens/calender_screen.png" width="200">
-<img src="images/screens/community_screen.jpg" width="200">
-<img src="images/screens/setting_screen.jpg" width="200">
+<p align="center">
+  <img src="images/screens/login_screen.jpg" width="200">
+  <img src="images/screens/home_screen.jpg" width="200">
+  <img src="images/screens/camera_screen.jpg" width="200">
+</p>
+<p align="center">
+  <img src="images/screens/calender_screen.png" width="200">
+  <img src="images/screens/community_screen.jpg" width="200">
+  <img src="images/screens/setting_screen.jpg" width="200">
+</p>
 
 ## 🏗️ 시스템 구조도
----
-<img src="images/fishapp_system.png" width="800">
+<p align="center">
+  <img src="images/fishapp_system.png" width="800">
+</p>
 
 ## 🗄️ ERD
----
-<img src="images/ERD.png" width="800">
+<p align="center">
+  <img src="images/ERD.png" width="800">
+</p
 
 ## 🛠️ 기술 스택
----
 |구분|기술 스택|
 |---|---|
 |프론트 엔드(모바일)|Dart,flutter|
@@ -67,7 +68,6 @@
 |버전 관리|git,github|
 
 ## 📂 Repository
----
 |Repository|Description|Github|
 |---|---|---|
 |Frontend|Flutter 기반 모바일 애플리케이션|<div align="center"><a href="https://github.com/ksw2003/ai_fishapp.git"><img src="images/icons/GitHub_Invertocat_Black.png" width="25"></a>|
