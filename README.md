@@ -1,12 +1,10 @@
-:fish: # 관상어용 스마트 어항 시스템
----
+# 🐠 관상어용 스마트 어항 시스템
 본 프로젝트는 IoT와 AI 기술을 활용하여 관상어의 사육 환경을 효율적으로 관리할 수 있도록 돕는 스마트 어항 관리 시스템입니다.
 사용자는 모바일 애플리케이션을 통해 어항의 실시간 영상과 수온 및 수질 상태를 확인할 수 있으며, 원격 먹이 급여 및 환수 기능을 통해 언제 어디서나 어항을 관리할 수 있습니다.
 또한 AI 기반 영상 분석을 통해 물고기의 어종과 개체 수를 인식하고 움직임을 분석하여 활동성 이상 여부를 판단합니다. 이외에도 어항 상태 및 관리 이력 조회, 사용자 간 정보 공유를 위한 커뮤니티, 어항 관리에 관한 질문을 지원하는 AI 챗봇 기능을 제공하여 보다 편리하고 체계적인 관상어 관리 환경을 구축하고자 합니다.
-|:calendar: 개발 기간|2026.01~2026.11|
-|---|---|
-:runner: ## 팀 구성 및 담당 역할
----
+|:---:|:---:|
+| 📅 개발 기간 | 2026.01 ~ 2026.11 |
+## 🏃 팀 구성 및 담당 역할
 |개발자|기능 담당|
 |---|---|
 |김서원(팀장)|IoT기능 개발,프론트엔드 UI개발|
@@ -14,8 +12,7 @@
 |유승엽|백엔드 서버 개발,프론트엔드 UI개발 보조|
 
 
-:book: ### 개요
----
+## 📖 개요
 1. 개발 배경 및 목적
 2. 주요 기능
 3. 서비스 화면
@@ -25,12 +22,10 @@
 7. Repository
 8. 실행방법
 
-:bulb: ### 개발 배경 및 목적
----
+## 💡 개발 배경 및 목적
 본 시스템은 사용자가 시간과 장소에 관계없이 모바일 앱을 통해 어항을 원격으로 관리하고, AI를 활용하여 물고기의 상태를 확인할 수 있도록 하는 것을 목표로 한다. 이를 통해 지속적인 어항 관리가 어려운 사용자들의 부담을 줄이고, 물고기의 이상 징후를 조기에 파악하여 보다 편리하고 안정적인 관상어 사육 환경을 제공하고자 한다.
 
-:rocket: ### 주요 기능
----
+## 🚀 주요 기능
 - 실시간 모니터링: 어항 영상 및 수온·수질 상태 실시간 확인
 - 원격 어항 제어: 모바일 앱을 통한 먹이 급여 및 환수 제어
 - AI 물고기 분석: 물고기 어종 및 개체 수 인식
@@ -39,25 +34,29 @@
 - AI 챗봇: 어항 관리 및 관상어 관련 질문 응답
 - 커뮤니티: 사용자 간 사육 정보 및 경험 공유
 
-:framed_picture: ### 서비스 화면
----
-<img src="images/screens/login_screen.jpg" width="200">
-<img src="images/screens/home_screen.jpg" width="200">
-<img src="images/screens/camera_screen.jpg" width="200">
-<img src="images/screens/calender_screen.png" width="200">
-<img src="images/screens/community_screen.jpg" width="200">
-<img src="images/screens/setting_screen.jpg" width="200">
+## 🖼️ 서비스 화면
+<p align="center">
+  <img src="images/screens/login_screen.jpg" width="200">
+  <img src="images/screens/home_screen.jpg" width="200">
+  <img src="images/screens/camera_screen.jpg" width="200">
+</p>
+<p align="center">
+  <img src="images/screens/calender_screen.png" width="200">
+  <img src="images/screens/community_screen.jpg" width="200">
+  <img src="images/screens/setting_screen.jpg" width="200">
+</p>
 
-:building_construction: ### 시스템 구조도
----
-<img src="images/fishapp_system.png" width="800">
+## 🏗️ 시스템 구조도
+<p align="center">
+  <img src="images/fishapp_system.png" width="800">
+</p>
 
-:gear: ### ERD
----
-<img src="images/ERD.png" width="800">
+## 🗄️ ERD
+<p align="center">
+  <img src="images/ERD.png" width="800">
+</p
 
- :hammer_and_wrench: ### 기술 스택
----
+## 🛠️ 기술 스택
 |구분|기술 스택|
 |---|---|
 |프론트 엔드(모바일)|Dart,flutter|
@@ -70,9 +69,7 @@
 |인프라|AWS EC2,Docker,Docker Compose|
 |버전 관리|git,github|
 
-:file_folder: ### Repository
----
-
+## 📂 Repository
 |Repository|Description|Github|
 |---|---|---|
 |Frontend|Flutter 기반 모바일 애플리케이션|<div align="center"><a href="https://github.com/ksw2003/ai_fishapp.git"><img src="images/icons/GitHub_Invertocat_Black.png" width="25"></a>|
