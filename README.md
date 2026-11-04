@@ -113,40 +113,37 @@
 |IoT|Raspberry Pi 기반 센서 및 장치 제어|<div align="center"><a href="https://github.com/ksw2003/fishapp_iot.git"><img src="images/icons/GitHub_Invertocat_Black.png" width="25"></a>|
 
 
-### 실행 방법
-    
-#### 1.파일 받아오기
+## 🚀 8. 실행 방법
 
-    git clone https://github.com/ksw2003/fishapp_main.git
-    cd fishapp_main
+#### 1️⃣ 프로젝트 클론
+```bash
+git clone https://github.com/ksw2003/fishapp_main.git
+cd fishapp_main
+```
+#### 2️⃣ .env 파일 작성
+프로젝트 루트 디렉토리에 `.env` 파일을 생성한 후 `.env-example.text`를 참고하여 작성합니다.
 
-#### 2. .env파일을 작성한다
-    env파일을 만든 후 .env-example.text를 참고하여 작성해줍니다.
+#### 3️⃣ 백엔드 서버 클론
+```bash
+git clone https://github.com/ysy03/fishTankServer.git backend
+```
+#### 4️⃣ 백엔드 서버 환경 설정
+[Backend Repository](https://github.com/ysy03/fishTankServer)의 README를 참고하여 `backend` 디렉토리에 `.env` 파일을 생성합니다.
 
-
-#### 3.서버 폴더를 가져온다.
-
-    git clone https://github.com/ysy03/fishTankServer.git backend
-
-#### 4.서버 환경 설정한다.
-
-    https://github.com/ysy03/fishTankServer.git
-    이동후 readme설명에 따라 .env파일 생성
-
-### 5. docker-compose 실행
-
-    docker compose up -d --build
-
-### 6. 컨테이너 확인
-
-###### 실행중인 컨테이너 확인
-
-    docker ps
-
-###### 로그 확인 
-
-    docker compose logs -f backend-server
-
-###### docker-compose 실행 종료
-
-    docker compose down
+#### 5️⃣ Docker Compose 실행
+```bash
+docker compose up -d --build
+```
+#### 6️⃣ 컨테이너 확인 및 관리
+**실행 중인 컨테이너 확인**
+```bash
+docker ps
+```
+**백엔드 서버 로그 확인**
+```bash
+docker compose logs -f backend-server
+```
+**Docker Compose 종료**
+```bash
+docker compose down
+```
