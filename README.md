@@ -61,7 +61,6 @@
 </p
 
 ## 🛠️ 6. 기술 스택
-
 <table>
   <tr>
     <th align="center">구분</th>
