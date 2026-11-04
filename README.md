@@ -116,6 +116,8 @@
 
 ## 🚀 8. 실행 방법
 
+본 프로젝트는 AWS EC2 환경에서 Docker Compose를 활용하여 Node.js 백엔드 서버, MySQL 데이터베이스 및 MediaMTX 서버를 실행합니다.
+
 #### 1️⃣ 프로젝트 클론
 ```bash
 git clone https://github.com/ksw2003/fishapp_main.git
