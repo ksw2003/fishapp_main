@@ -57,7 +57,7 @@
 
 ## 🗄️ 5. ERD
 <p align="center">
-  <a href="images/ERD.svg">
+  <a href="https://github.com/ksw2003/fishapp_main/blob/main/images/ERD.ㄴㅍㅎ">
     <img src="images/ERD.svg" width="1000">
   </a>
 </p>
