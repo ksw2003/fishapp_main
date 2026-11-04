@@ -57,8 +57,10 @@
 
 ## 🗄️ 5. ERD
 <p align="center">
-  <img src="images/ERD.svg" width="1000">
-</p
+  <a href="images/ERD.svg">
+    <img src="images/ERD.svg" width="1000">
+  </a>
+</p>
 
 ## 🛠️ 6. 기술 스택
 <table>
