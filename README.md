@@ -52,12 +52,12 @@
 
 ## 🏗️ 4. 시스템 구조도
 <p align="center">
-  <img src="images/fishapp_system.png" width="800">
+  <img src="images/fishapp_system.svg" width="800">
 </p>
 
 ## 🗄️ 5. ERD
 <p align="center">
-  <img src="images/ERD.png" width="1000">
+  <img src="images/ERD.svg" width="1000">
 </p
 
 ## 🛠️ 6. 기술 스택
